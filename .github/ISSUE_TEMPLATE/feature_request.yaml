@@ -33,7 +33,7 @@ body:
       description: >
         Please describe how the new feature would be implemented, using psudocode if relevant.
       placeholder: >
-        Add a new parameter to DataFrame, to_series, to return a Series if possible.
+        Add a new plugin to airflow to connect to Cowell
 
         class ODBCHook(BaseHook):
             def __init__(self, conn_id: str):
