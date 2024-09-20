@@ -26,7 +26,9 @@ body:
       label: Dag Description
       description: >
         Please describe the purpose of the dag, the result should be, and dag info refered to the place holder.
-        
+      placeholder: >
+        I want a dag that will send a report to management every month showing the total sales per store.
+
         - Frequency: Daily
         - Parameters (optional): Start Date, End Date
         - Email Recipients (optional): management@richmond.com
@@ -34,10 +36,6 @@ body:
         - Need to save the data to database/s3/other storage? (optional): Yes, save to postgres.
         - What's the SLA? (optional): 99.9% uptime.
         - How late can the data be? (optional): 1 hour.
-        
-      placeholder: >
-        I want a dag that will send a report to management every month showing the total sales per store.
-
 
     validations:
       required: true
