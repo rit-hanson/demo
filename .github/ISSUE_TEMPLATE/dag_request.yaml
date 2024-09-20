@@ -36,7 +36,7 @@ body:
     attributes:
       label: Dag request
       description: >
-        Please describe what dag is needed. Contain dag info and short description is encouraged.
+        Please describe the dag request in detail.
       placeholder: >
         Dag request:
           - Frequency: Daily
@@ -46,7 +46,7 @@ body:
           - Need to save the data to database/s3/other storage? (optional): Yes, save to postgres.
           - What's the SLA? (optional): 99.9% uptime.
           - How late can the data be? (optional): 1 hour.
-          
+
   - type: textarea
     id: data_description
     attributes:
