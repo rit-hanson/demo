@@ -65,4 +65,4 @@ body:
       description: >
         If some specific logic are applied, please describe it or refer to wiki or other document.
       placeholder: >
-        Use account number instead of tax ID for companies, as not all companies have a tax ID.
+        Use account number to get the company list instead of using tax ID, as not all companies have a tax ID.
