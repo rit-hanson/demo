@@ -19,6 +19,7 @@ body:
         - Sales
         - HR
         - Legal 
+        - Merchandise
 
   - type: textarea
     id: description
